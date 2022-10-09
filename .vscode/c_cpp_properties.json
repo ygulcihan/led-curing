@@ -1,0 +1,19 @@
+{
+  "configurations": [
+    {
+      "name": "Template",
+      "includePath": [
+        "C:/Keil_v5/ARM/ARMCC/include",
+        "C:/Keil_v5/ARM/ARMCLANG/include",
+        "${workspaceFolder}/Keil/../Library/CMSIS/Include",
+        "${workspaceFolder}/Keil/../Library/Device/Nuvoton/NUC029FAE/Include",
+        "${workspaceFolder}/Keil/../Library/StdDriver/inc",
+        "${workspaceFolder}/Keil/../Library/Sinyalizasyon/inc",
+        "${workspaceFolder}/Keil/../Template"
+      ],
+        "defines": [
+      ]
+    }
+  ],
+  "version": 4
+}

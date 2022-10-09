@@ -1,0 +1,19 @@
+--cpu Cortex-M0
+".\obj\system_nuc029fae.o"
+".\obj\startup_nuc029fae.o"
+".\obj\retarget.o"
+".\obj\uart.o"
+".\obj\sys.o"
+".\obj\clk.o"
+".\obj\gpio.o"
+".\obj\timer.o"
+".\obj\buttonlib.o"
+".\obj\ticker.o"
+".\obj\pwm.o"
+".\obj\fmc.o"
+".\obj\main.o"
+".\obj\flasher.o"
+--ro-base 0x00000000 --entry 0x00000000 --rw-base 0x20000000 --entry Reset_Handler --first __Vectors --strict
+--map --first='startup_NUC029FAE.o(RESET)' --datacompressor=off --info=inline --entry Reset_Handler --summary_stderr --info summarysizes --map --load_addr_map_info --symbols
+--info sizes --info totals
+--list ".\lst\flasher.map" -o .\obj\flasher.axf
